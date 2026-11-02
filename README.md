@@ -13,10 +13,13 @@ Siga estas instruções para configurar e executar o projeto em seu ambiente de 
 
 ### Instalação
 
-1.  Clone o repositório para sua máquina local.
+1.  Clone o repositório para sua máquina local:
+    ```bash
+    git clone https://github.com/lays2/FinShopping.git
+    ```
 2.  Navegue até o diretório do projeto:
     ```bash
-    cd nome-do-projeto
+    cd FinShopping
     ```
 3.  Instale as dependências:
     ```bash
@@ -43,7 +46,7 @@ A aplicação utiliza uma API interna para simular operações de backend. Todos
 
 #### `GET /api/products`
 
-Retorna la lista de todos os produtos disponíveis na loja.
+Retorna a lista de todos os produtos disponíveis na loja.
 
 - **Método:** `GET`
 - **Resposta de Sucesso (200 OK):**
